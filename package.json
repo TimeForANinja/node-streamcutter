@@ -1,0 +1,32 @@
+{
+  "name": "streamcutter",
+  "description": "short transformer stream to cut a stream's end / beginning / length",
+  "keywords": [
+    "nodejs",
+    "node",
+    "stream",
+    "cut"
+  ],
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TimeForANinja/node-streamcutter"
+  },
+  "author": "Tobias Kutscha (https://github.com/TimeForANinja)",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:fix": "eslint --fix *.js",
+    "lint": "eslint *.js"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/TimeForANinja/node-streamcutter/issues"
+  },
+  "license": "MIT"
+}
