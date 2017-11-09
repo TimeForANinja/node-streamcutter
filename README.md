@@ -29,15 +29,19 @@ noStartNoEnd.pipe(fs.createWriteStream('./cutFile'));
   * options.end
     * typeof number
     * how many bytes to trim from the end
+    * default's to `0`
   * options.start
     * typeof number
     * how many bytes to trim from the start
+    * default's to `0`
   * options.length
     * typeof number
     * how many bytes it should be long
+    * default's to `Infinity`
   * options.debug
     * typeof boolean
     * enable debug logs
+    * default's to `false`
 * [transformerStreamOptions](https://nodejs.org/api/stream.html#stream_new_stream_transform_options)
 
 # Install
