@@ -11,7 +11,6 @@
 </div>
 
 # node-streamcutter
-
 cut a streams start, end and length
 
 # Usage
