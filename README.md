@@ -10,6 +10,8 @@
 </div>
 
 # node-streamcutter
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/TimeForANinja/node-streamcutter.svg)](https://greenkeeper.io/)
 cut a streams start, end and length
 
 # Usage
