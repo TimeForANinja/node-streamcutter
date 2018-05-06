@@ -7,23 +7,30 @@
     "stream",
     "cut"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/TimeForANinja/node-streamcutter"
   },
   "author": "Tobias Kutscha (https://github.com/TimeForANinja)",
-  "main": "./index.js",
+  "main": "./lib/main.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:fix": "eslint --fix *.js",
-    "lint": "eslint *.js"
+    "test": "npm run lint && npm run istanbul",
+    "istanbul": "istanbul cover node_modules/mocha/bin/_mocha -- -t 16000 test/*-test.js",
+    "lint": "eslint ./",
+    "lint:fix": "eslint --fix ./"
   },
   "devDependencies": {
-    "eslint": "^4.10.0"
+    "eslint": "^4.10.0",
+    "assert-diff": "^1.2.4",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.0.0"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=6"
   },
   "bugs": {
     "url": "https://github.com/TimeForANinja/node-streamcutter/issues"

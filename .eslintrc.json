@@ -7,9 +7,6 @@
     "es6": true,
     "node": true
   },
-  "overrides": [
-    { "files": ["*.browser.js"], "env": { "browser": true } }
-  ],
   "rules": {
     "no-await-in-loop": "warn",
     "no-compare-neg-zero": "error",
@@ -42,7 +39,7 @@
     "accessor-pairs": "warn",
     "array-callback-return": "error",
     "complexity": "warn",
-    "consistent-return": "error",
+    "consistent-return": "warn",
     "curly": ["error", "multi-line", "consistent"],
     "dot-location": ["error", "property"],
     "dot-notation": "error",
@@ -148,6 +145,7 @@
     "prefer-template": "error",
     "rest-spread-spacing": "error",
     "template-curly-spacing": "error",
-    "yield-star-spacing": "error"
+    "yield-star-spacing": "error",
+    "no-var": "error"
   }
 }
