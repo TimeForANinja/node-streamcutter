@@ -3,6 +3,7 @@
     <a href="https://www.npmjs.com/package/streamcutter"><img src="https://img.shields.io/npm/v/streamcutter.svg?maxAge=3600" alt="NPM version" /></a>
     <a href="https://www.npmjs.com/package/streamcutter"><img src="https://img.shields.io/npm/dt/streamcutter.svg?maxAge=3600" alt="NPM downloads" /></a>
     <a href="https://github.com/timeforaninja/node-streamcutter"><img src="https://david-dm.org/timeforaninja/node-streamcutter.svg" alt="Dependencies" /></a>
+    <a href="https://greenkeeper.io/"><img src="https://badges.greenkeeper.io/TimeForANinja/node-streamcutter.svg" /></a>
   </p>
   <p>
     <a href="https://nodei.co/npm/streamcutter/"><img src="https://nodei.co/npm/streamcutter.png?downloads=true&stars=true" alt="NPM info" /></a>
@@ -11,7 +12,6 @@
 
 # node-streamcutter
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/TimeForANinja/node-streamcutter.svg)](https://greenkeeper.io/)
 cut a streams start, end and length
 
 # Usage
