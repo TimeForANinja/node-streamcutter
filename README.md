@@ -39,10 +39,6 @@ noStartNoEnd.pipe(fs.createWriteStream('./cutFile'));
     * typeof number
     * how many bytes it should be long
     * default's to `Infinity`
-  * options.debug
-    * typeof boolean
-    * enable debug logs
-    * default's to `false`
 * [transformerStreamOptions](https://nodejs.org/api/stream.html#stream_new_stream_transform_options)
 
 # Install
